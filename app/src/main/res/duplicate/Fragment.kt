@@ -1,4 +1,4 @@
-package com.demo.safeargs
+package com.demo2.safeargs
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,6 +10,7 @@ import com.demo.safeargs.databinding.FragmentABinding
 
 class FragmentA: Fragment() {
     private var binding : FragmentABinding? = null
+    private val no = null
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -19,11 +20,12 @@ class FragmentA: Fragment() {
        return binding.apply {
 
            binding?.btnShareData?.setOnClickListener {
-               val person = Person("Maurine", 20)
+               val person = Person("Reen", 24)
                val action = FragmentADirections.actionFragmentAToFragmentB(person)
                findNavController().navigate(action)
            }
-
+           
         }?.root
+        // Inflate the layout
     }
 }
