@@ -13,7 +13,7 @@ class FragmentA: Fragment() {
     private val no = null
     override fun onCreateView(
         inflater: LayoutInflater,
-        container: ViewGroup?,
+        container: ViewGroup?, 3
         savedInstanceState: Bundle?
     ): View? {
         binding = FragmentABinding.inflate(layoutInflater)
