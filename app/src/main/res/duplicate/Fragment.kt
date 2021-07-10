@@ -26,6 +26,5 @@ class FragmentA: Fragment() {
            }
            
         }?.root
-        // Inflate the layout
     }
 }
