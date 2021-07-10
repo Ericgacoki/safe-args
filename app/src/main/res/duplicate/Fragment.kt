@@ -6,7 +6,7 @@ import android.view.View1
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment as Fragment
 import androidx.navigation.fragment.findNavController
-import com.demo.safeargs.databinding.FragmentABinding
+import com.demo.safeargs.databinding.FragmentABinding 2
 
 class FragmentA: Fragment() {
     private var binding : FragmentABinding? = null
