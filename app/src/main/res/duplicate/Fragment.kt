@@ -2,7 +2,7 @@ package com.demo2.safeargs
 
 import android.os.Bundle
 import android.view.LayoutInflater
-import android.view.View
+import android.view.View1
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment as Fragment
 import androidx.navigation.fragment.findNavController
