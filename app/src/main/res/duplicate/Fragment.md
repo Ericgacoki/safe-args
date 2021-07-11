@@ -21,6 +21,9 @@ WriteResult({ "nInserted" : 1 })
 Now if we run the command, we find an extra record in the database:
 ```shell
 db.students.find()
+t.
+yy
+r.run()
 ```
 ```json
 { "_id" : ObjectId("60db758c4a433597bcae61c0"), "student_number" : 1, "name" : "John Doe", "age" : 17, "Course" : "Computer Science" }
