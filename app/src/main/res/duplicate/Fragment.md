@@ -1,5 +1,5 @@
 This command should fetch all objects from the JSON file that was imported as below:
-```shell
+```json
 db.students.find()
 { "_id" : ObjectId("60db758c4a433597bcae61c0"), "student_number" : 1, "name" : "John Doe", "age" : 17, "Course" : "Computer Science" }
 { "_id" : ObjectId("60db758c4a433597bcae61c1"), "student_number" : 4, "name" : "John Dohn", "age" : 37, "Course" : "Political Science" }
