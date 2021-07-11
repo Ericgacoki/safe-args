@@ -1,5 +1,5 @@
 This command should fetch all objects from the JSON file that was imported as below:
-```shell
+```bash
 db.students.find()
 ```
 ```json
@@ -11,19 +11,16 @@ db.students.find()
 ### Save JSON data to MongoDB Database
 Now that we have imported a JSON file into MongoDB, we will add two records to the database then export the data to a new JSON file.
 Use the command below to add records to the database:
-```shell
+```bash
 db.students.insert({"student_number":5, "name":"Last student added", "age":22, "Course":"Engineering"})
 ```
 You should get the response below in the terminal:
-```shell
+```bash
 WriteResult({ "nInserted" : 1 })
 ```
 Now if we run the command, we find an extra record in the database:
-```shell
+```bash
 db.students.find()
-t.
-yy
-r.run()
 ```
 ```json
 { "_id" : ObjectId("60db758c4a433597bcae61c0"), "student_number" : 1, "name" : "John Doe", "age" : 17, "Course" : "Computer Science" }
@@ -34,7 +31,7 @@ r.run()
 ```
 ### Export JSON to MongoDB Database
 Now let us export the new file to JSON using the following command:
-```shell
+```bash
 mongoexport --db studentinfo --collection student --out d:\out.json --pretty
 ```
 You should have the response below in your terminal:
