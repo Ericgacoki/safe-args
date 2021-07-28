@@ -18,6 +18,7 @@ db.students.insert({"student_number":5, "name":"Last student added", "age":22, "
 ```
 You should get the response below in the terminal:
 ```bash
+# eric
 WriteResult({ "nInserted" : 1 })
 ```
 Now if we run the command, we find an extra record in the database:
